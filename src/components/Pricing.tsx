@@ -10,13 +10,11 @@ const Pricing = () => {
         </div>
         
         <div className="max-w-4xl mx-auto">
-          <div className="bg-card rounded-2xl shadow-xl p-8 border border-border">
-            <img 
-              src="/lovable-uploads/eda43d7d-3b44-4070-82a2-99b755c0c343.png" 
-              alt="Prisliste - Hair by Sindholt" 
-              className="w-full h-auto rounded-lg"
-            />
-          </div>
+          <img 
+            src="/lovable-uploads/eda43d7d-3b44-4070-82a2-99b755c0c343.png" 
+            alt="Prisliste - Hair by Sindholt" 
+            className="w-full h-auto rounded-lg"
+          />
         </div>
       </div>
     </section>
