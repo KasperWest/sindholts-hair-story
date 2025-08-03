@@ -1,4 +1,4 @@
 const Pricing = () => {
-  return;
+  return null;
 };
 export default Pricing;
