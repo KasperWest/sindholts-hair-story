@@ -2,12 +2,12 @@ const Footer = () => {
   return (
     <footer className="bg-primary text-primary-foreground py-12">
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-3 gap-8 text-center md:text-left">
+        <div className="grid md:grid-cols-2 gap-8 text-center md:text-left">
           <div>
             <img 
               src="/lovable-uploads/e7547722-a7ff-4384-8cb7-69482a6a0aec.png" 
               alt="Hair by Sindholt Logo" 
-              className="h-12 w-auto mx-auto md:mx-0 mb-4 filter invert"
+              className="h-20 w-auto mx-auto md:mx-0 mb-4 filter invert"
             />
             <p className="text-primary-foreground/80">
               Professionel frisør og extensionist med passion for dit hår
@@ -23,15 +23,6 @@ const Footer = () => {
             </div>
           </div>
           
-          <div>
-            <h4 className="font-bold mb-4">Services</h4>
-            <div className="space-y-2 text-primary-foreground/80">
-              <p>Hair Extensions</p>
-              <p>Balayage</p>
-              <p>Nioplex behandling</p>
-              <p>IdHAIR produkter</p>
-            </div>
-          </div>
         </div>
         
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
