@@ -5,10 +5,13 @@ const Hero = () => {
     <section id="hjem" className="min-h-screen bg-gradient-to-br from-salon-champagne via-salon-warm to-background relative overflow-hidden">
       <div className="container mx-auto px-4 py-20 grid lg:grid-cols-2 gap-12 items-center min-h-screen">
         <div className="text-center lg:text-left">
-          <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight">
-            Hair by<br />
-            <span className="text-primary">Sindholt</span>
-          </h1>
+          <div className="mb-6">
+            <img 
+              src="/lovable-uploads/e7547722-a7ff-4384-8cb7-69482a6a0aec.png" 
+              alt="Hair by Sindholt Logo" 
+              className="h-24 md:h-32 w-auto mx-auto lg:mx-0"
+            />
+          </div>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl">
             🤍 Uddannet frisør med 4 årig uddannelse 💇🏼‍♂️💇🏼‍♀️<br />
             🤍 Hair extensions<br />
