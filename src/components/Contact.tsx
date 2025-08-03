@@ -1,10 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { MapPin, Phone, Clock } from "lucide-react";
-
 const Contact = () => {
-  return (
-    <section id="kontakt" className="py-20 bg-background">
+  return <section id="kontakt" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-bold text-center text-foreground mb-12">
           Kontakt & Find vej
@@ -53,19 +51,7 @@ const Contact = () => {
             </Card>
             
             <Card className="shadow-lg border-0 bg-card">
-              <CardContent className="p-8">
-                <h3 className="text-xl font-bold text-foreground mb-4">
-                  v/ Katrine Matilde Lindstrøm Sindholt
-                </h3>
-                <p className="text-muted-foreground mb-4">CVR.: 41725214</p>
-                
-                <Button 
-                  className="w-full bg-primary hover:bg-primary/90 text-lg py-6"
-                  onClick={() => window.open('https://hairbysindholt.book.dk/', '_blank')}
-                >
-                  Book tid online
-                </Button>
-              </CardContent>
+              
             </Card>
           </div>
           
@@ -79,17 +65,10 @@ const Contact = () => {
                 og extensions af højeste kvalitet.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button 
-                  variant="outline" 
-                  className="flex-1 border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                  onClick={() => window.location.href = 'tel:31316093'}
-                >
+                <Button variant="outline" className="flex-1 border-primary text-primary hover:bg-primary hover:text-primary-foreground" onClick={() => window.location.href = 'tel:31316093'}>
                   Ring nu
                 </Button>
-                <Button 
-                  className="flex-1 bg-primary hover:bg-primary/90"
-                  onClick={() => window.open('https://hairbysindholt.book.dk/', '_blank')}
-                >
+                <Button className="flex-1 bg-primary hover:bg-primary/90" onClick={() => window.open('https://hairbysindholt.book.dk/', '_blank')}>
                   Book online
                 </Button>
               </div>
@@ -104,8 +83,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Contact;
