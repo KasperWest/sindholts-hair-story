@@ -1,6 +1,5 @@
 const About = () => {
-  return (
-    <section id="om-os" className="py-20 bg-gradient-to-b from-background to-salon-warm">
+  return <section id="om-os" className="py-20 bg-gradient-to-b from-background to-salon-warm">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center text-foreground mb-12">
@@ -43,27 +42,19 @@ const About = () => {
             
             <div className="relative">
               <div className="rounded-2xl overflow-hidden shadow-xl">
-                <img 
-                  src="/lovable-uploads/b056d4cb-e5aa-4712-b00c-5781988a82de.png" 
-                  alt="Professionelt hårarbejde" 
-                  className="w-full h-auto object-cover"
-                />
+                <img src="/lovable-uploads/b056d4cb-e5aa-4712-b00c-5781988a82de.png" alt="Professionelt hårarbejde" className="w-full h-auto object-cover" />
               </div>
             </div>
           </div>
           
           <div className="mt-12 text-center">
-            <p className="text-lg text-muted-foreground mb-6">
-              Du finder en prisliste under Priser, over de fleste af de behandlinger jeg tilbyder.
-            </p>
+            
             <p className="text-xl font-semibold text-foreground">
               Jeg glæder mig til at betjene dig hos Hair by Sindholt
             </p>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
