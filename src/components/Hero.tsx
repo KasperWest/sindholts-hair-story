@@ -16,10 +16,10 @@ const Hero = () => {
             Din professionelle frisør i Kolding med 15 års erfaring og den 4-årige uddannelse.
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl">
-            🤍 Uddannet frisør med 4 årig uddannelse 💇🏼‍♂️💇🏼‍♀️<br />
-            🤍 Hair extensions<br />
-            🤍 IdHAIR<br />
-            🤍 Nioplex
+            🤍 15 års erfaring med frisørarbejde 💇🏼‍♀️💇🏼‍♂️<br />
+            🤍 Specialist i hair extensions & hårfarve<br />
+            🤍 Certificeret i IdHAIR & Nioplex<br />
+            🤍 Jeg udfører selv alle behandlinger
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <Button 
