@@ -1,61 +1,81 @@
 import { ChevronDown } from "lucide-react";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import { useState } from "react";
+import herreklipImg from "@/assets/herreklip.png";
 
 const treatments = [
   {
     title: "Herreklip",
     description: "Professionel herreklipning",
-    details: "Hos Hair by Sindholt får du en professionel herreklipning, der passer til din stil og ansigtsform. Jeg bruger moderne teknikker og tager mig god tid til at sikre det perfekte resultat."
+    details: "Hos Hair by Sindholt får du en professionel herreklipning, der passer til din stil og ansigtsform. Jeg bruger moderne teknikker og tager mig god tid til at sikre det perfekte resultat.",
+    image: herreklipImg
   },
   {
     title: "Dameklip",
     description: "Moderne dameklipning og styling",
-    details: "Uanset om du ønsker en frisk frisure eller bare en klipning, så skræddersyr jeg behandlingen efter dit hår og dine ønsker. Jeg rådgiver gerne om den bedste frisure til dig."
+    details: "Uanset om du ønsker en frisk frisure eller bare en klipning, så skræddersyr jeg behandlingen efter dit hår og dine ønsker. Jeg rådgiver gerne om den bedste frisure til dig.",
+    image: "/placeholder.svg"
   },
   {
     title: "Børneklip",
     description: "Børnevenlig klipning",
-    details: "Jeg har erfaring med at klippe børn i alle aldre. Jeg sørger for en tryg og behagelig oplevelse, så dit barn får en flot frisure i hyggelige omgivelser."
+    details: "Jeg har erfaring med at klippe børn i alle aldre. Jeg sørger for en tryg og behagelig oplevelse, så dit barn får en flot frisure i hyggelige omgivelser.",
+    image: "/placeholder.svg"
   },
   {
     title: "Hairextensions",
     description: "Ekspert i hairextensions",
-    details: "Med over 15 års erfaring inden for hairextensions tilbyder jeg forskellige metoder og løsninger. Jeg hjælper dig med at få længere og fyldigere hår til rimelige priser. Alle kan have råd til at have og vedligeholde hairextensions hos mig."
+    details: "Med over 15 års erfaring inden for hairextensions tilbyder jeg forskellige metoder og løsninger. Jeg hjælper dig med at få længere og fyldigere hår til rimelige priser. Alle kan have råd til at have og vedligeholde hairextensions hos mig.",
+    image: "/placeholder.svg"
   },
   {
     title: "Hårfarve",
     description: "Professionel hårfarvning",
-    details: "Fra naturlige nuancer til modige farvevalg - jeg hjælper dig med at finde den perfekte hårfarve. Jeg bruger kvalitetsprodukter og teknikker, der skåner dit hår."
+    details: "Fra naturlige nuancer til modige farvevalg - jeg hjælper dig med at finde den perfekte hårfarve. Jeg bruger kvalitetsprodukter og teknikker, der skåner dit hår.",
+    image: "/placeholder.svg"
   },
   {
     title: "Andre behandlinger",
     description: "Øvrige frisørbehandlinger",
-    details: "Jeg tilbyder også andre behandlinger såsom styling til fester, bryllup og andre særlige lejligheder. Kontakt mig gerne for at høre mere om dine specifikke ønsker."
+    details: "Jeg tilbyder også andre behandlinger såsom styling til fester, bryllup og andre særlige lejligheder. Kontakt mig gerne for at høre mere om dine specifikke ønsker.",
+    image: "/placeholder.svg"
   }
 ];
 
-const TreatmentCard = ({ title, description, details }: { title: string; description: string; details: string }) => {
+const TreatmentCard = ({ title, description, details, image }: { title: string; description: string; details: string; image: string }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <Collapsible open={isOpen} onOpenChange={setIsOpen}>
       <Card className="overflow-hidden transition-all hover:shadow-lg border-border/50">
-        <CollapsibleTrigger className="w-full text-left">
-          <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-4">
-            <div className="space-y-1.5">
-              <CardTitle className="text-xl">{title}</CardTitle>
-              <CardDescription>{description}</CardDescription>
-            </div>
-            <ChevronDown className={`h-5 w-5 text-muted-foreground transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`} />
-          </CardHeader>
-        </CollapsibleTrigger>
-        <CollapsibleContent>
-          <CardContent className="pt-0 pb-6">
-            <p className="text-muted-foreground leading-relaxed">{details}</p>
-          </CardContent>
-        </CollapsibleContent>
+        <div className="aspect-[4/3] overflow-hidden">
+          <img 
+            src={image} 
+            alt={title}
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <CardHeader className="space-y-1.5 pb-4">
+          <CardTitle className="text-xl">{title}</CardTitle>
+          <CardDescription>{description}</CardDescription>
+        </CardHeader>
+        <CardContent className="pt-0 pb-6 space-y-4">
+          <div className="flex gap-3">
+            <Button variant="default" className="flex-1">
+              Book
+            </Button>
+            <CollapsibleTrigger asChild>
+              <Button variant="outline" className="flex-1">
+                Læs mere
+              </Button>
+            </CollapsibleTrigger>
+          </div>
+          <CollapsibleContent>
+            <p className="text-muted-foreground leading-relaxed pt-4">{details}</p>
+          </CollapsibleContent>
+        </CardContent>
       </Card>
     </Collapsible>
   );
@@ -77,6 +97,7 @@ const Behandlinger = () => {
                 title={treatment.title}
                 description={treatment.description}
                 details={treatment.details}
+                image={treatment.image}
               />
             ))}
           </div>
