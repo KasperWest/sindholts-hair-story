@@ -13,19 +13,19 @@ const About = () => {
               </p>
               
               <p>
-                Hos Hair by Sindholt tilbydes alt inden for hairextensions – og meget mere. Ud over min store passion og mange års erfaring med extensions tilbyder jeg også professionel hårfarve, herreklip og børneklip.
+                Hos <span className="font-semibold text-foreground">Hair by Sindholt</span> tilbydes alt inden for hairextensions – og meget mere. Ud over min store passion og mange års erfaring med extensions tilbyder jeg også professionel <span className="font-semibold text-foreground">hårfarve, herreklip og børneklip</span>.
               </p>
               
               <p>
-                Når du vælger Hair by Sindholt, får du altid den samme frisør – mig – uanset hvilken behandling du kommer for. Alle ydelser foregår i min hyggelige frisørsalon i Kolding, hvor der er parkeringsmuligheder lige ved døren og god plads til ro, nærvær og hyggelig snak under behandlingerne.
+                Når du vælger Hair by Sindholt, får du altid <span className="font-semibold text-foreground">den samme frisør – mig</span> – uanset hvilken behandling du kommer for. Alle ydelser foregår i min <span className="font-semibold text-foreground">hyggelige frisørsalon i Kolding</span>, hvor der er <span className="font-semibold text-foreground">parkeringsmuligheder lige ved døren</span> og god plads til ro, nærvær og hyggelig snak under behandlingerne.
               </p>
               
               <p>
-                Jeg har arbejdet med extensions siden 2008, deltaget i en række kurser og arbejdet professionelt som extensionist i tre år, før jeg åbnede min salon i 2020. Samtidig bygger jeg på den 4-årige frisøruddannelse og har været aktiv i faget siden 2010.
+                Jeg har arbejdet med extensions siden 2008, deltaget i en række kurser og arbejdet professionelt som extensionist i tre år, før jeg åbnede <span className="font-semibold text-foreground">min</span> salon i 2020. Samtidig bygger jeg på den 4-årige frisøruddannelse og har været aktiv i faget siden 2010.
               </p>
               
               <p>
-                Hos Hair by Sindholt er målet altid at skabe det udtryk, der passer perfekt til både dig og dit hår. Når håret og personligheden skal spille sammen – eller have et frisk, nyt match – gør vi det i fællesskab. Med dine ønsker som udgangspunkt og mine faglige kompetencer finder vi sammen den løsning, der får dig til at føle dig allermest hjemme i dit hår.
+                Hos Hair by Sindholt er målet altid at skabe det udtryk, der passer <span className="font-semibold text-foreground">perfekt til både dig og dit hår</span>. Når håret og personligheden skal spille sammen – eller have et frisk, nyt match – <span className="font-semibold text-foreground">gør vi det i fællesskab</span>. Med dine ønsker som udgangspunkt og mine faglige kompetencer <span className="font-semibold text-foreground">finder vi sammen den løsning, der får dig til at føle dig allermest hjemme i dit hår</span>.
               </p>
             </div>
             
