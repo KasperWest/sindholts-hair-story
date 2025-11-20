@@ -137,7 +137,7 @@ const TreatmentCard = ({
 
 const Behandlinger = () => {
   return (
-    <section id="behandlinger" className="py-20 bg-background">
+    <section id="behandlinger" className="py-20 bg-salon-champagne">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center text-foreground mb-12">
