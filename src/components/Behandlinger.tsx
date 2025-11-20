@@ -44,7 +44,7 @@ const treatments = [
   {
     title: "Herreklip",
     description: "Professionel herreklipning i Kolding",
-    details: "Hos Hair by Sindholt får du en professionel herreklipning, der passer til din stil og ansigtsform. Som erfaren frisør i Kolding bruger jeg moderne teknikker og tager mig god tid til at sikre det perfekte resultat.",
+    details: "Hos Hair by Sindholt får du en professionel herreklipning, der passer til din stil og ansigtsform. Som erfaren frisør i Kolding bruger jeg moderne teknikker, herunder klassisk saksearbejde, og tager mig god tid til at sikre det perfekte resultat.",
     image: herreklipImg
   },
   {
