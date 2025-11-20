@@ -28,6 +28,11 @@ const treatments = [
     title: "Hårfarve",
     description: "Professionel hårfarvning",
     details: "Fra naturlige nuancer til modige farvevalg - jeg hjælper dig med at finde den perfekte hårfarve. Jeg bruger kvalitetsprodukter og teknikker, der skåner dit hår."
+  },
+  {
+    title: "Andre behandlinger",
+    description: "Øvrige frisørbehandlinger",
+    details: "Jeg tilbyder også andre behandlinger såsom styling til fester, bryllup og andre særlige lejligheder. Kontakt mig gerne for at høre mere om dine specifikke ønsker."
   }
 ];
 
@@ -65,7 +70,7 @@ const Behandlinger = () => {
             Behandlinger
           </h2>
           
-          <div className="grid gap-4 md:gap-6">
+          <div className="grid md:grid-cols-2 gap-4 md:gap-6">
             {treatments.map((treatment) => (
               <TreatmentCard
                 key={treatment.title}
