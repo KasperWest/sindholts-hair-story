@@ -4,6 +4,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import herreklipImg from "@/assets/herreklip.png";
+import dameklipBefore from "@/assets/dameklip-before.png";
+import dameklipAfter from "@/assets/dameklip-after.png";
 
 const treatments = [
   {
@@ -16,7 +18,10 @@ const treatments = [
     title: "Dameklip",
     description: "Moderne dameklipning og styling",
     details: "Uanset om du ønsker en frisk frisure eller bare en klipning, så skræddersyr jeg behandlingen efter dit hår og dine ønsker. Jeg rådgiver gerne om den bedste frisure til dig.",
-    image: "/placeholder.svg"
+    beforeAfter: {
+      before: dameklipBefore,
+      after: dameklipAfter
+    }
   },
   {
     title: "Børneklip",
@@ -44,18 +49,55 @@ const treatments = [
   }
 ];
 
-const TreatmentCard = ({ title, description, details, image }: { title: string; description: string; details: string; image: string }) => {
+const TreatmentCard = ({ 
+  title, 
+  description, 
+  details, 
+  image,
+  beforeAfter 
+}: { 
+  title: string; 
+  description: string; 
+  details: string; 
+  image?: string;
+  beforeAfter?: { before: string; after: string };
+}) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <Collapsible open={isOpen} onOpenChange={setIsOpen}>
       <Card className="overflow-hidden transition-all hover:shadow-lg border-border/50">
         <div className="aspect-[4/3] overflow-hidden">
-          <img 
-            src={image} 
-            alt={title}
-            className="w-full h-full object-cover"
-          />
+          {beforeAfter ? (
+            <div className="grid grid-cols-2 h-full">
+              <div className="relative overflow-hidden">
+                <img 
+                  src={beforeAfter.before} 
+                  alt={`${title} - Før`}
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute bottom-2 left-2 bg-background/80 px-2 py-1 rounded text-xs font-medium">
+                  Før
+                </div>
+              </div>
+              <div className="relative overflow-hidden">
+                <img 
+                  src={beforeAfter.after} 
+                  alt={`${title} - Efter`}
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute bottom-2 right-2 bg-background/80 px-2 py-1 rounded text-xs font-medium">
+                  Efter
+                </div>
+              </div>
+            </div>
+          ) : image ? (
+            <img 
+              src={image} 
+              alt={title}
+              className="w-full h-full object-cover"
+            />
+          ) : null}
         </div>
         <CardHeader className="space-y-1.5 pb-4">
           <CardTitle className="text-xl">{title}</CardTitle>
@@ -97,7 +139,8 @@ const Behandlinger = () => {
                 title={treatment.title}
                 description={treatment.description}
                 details={treatment.details}
-                image={treatment.image}
+                image={'image' in treatment ? treatment.image : undefined}
+                beforeAfter={'beforeAfter' in treatment ? treatment.beforeAfter : undefined}
               />
             ))}
           </div>
