@@ -47,11 +47,6 @@ const Contact = () => {
                     </div>
                   </div>
                 </div>
-                <div className="mt-6 pt-4 border-t border-border/50">
-                  <p className="text-xs text-muted-foreground text-center">
-                    CVR nr.: 41725214
-                  </p>
-                </div>
               </CardContent>
             </Card>
             
