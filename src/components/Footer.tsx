@@ -8,6 +8,7 @@ const Footer = () => {
             alt="Hair by Sindholt Logo" 
             className="h-20 w-auto mx-auto filter invert"
           />
+          <p className="mt-4 text-primary-foreground/80">CVR: 41725214</p>
         </div>
       </div>
     </footer>
