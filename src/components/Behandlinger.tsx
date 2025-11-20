@@ -9,6 +9,8 @@ import dameklipAfter from "@/assets/dameklip-after.png";
 import haarfarveBefore from "@/assets/haarfarve-before.png";
 import haarfarveAfter from "@/assets/haarfarve-after.png";
 import borneklipImg from "@/assets/borneklip.png";
+import hairextensionsBefore from "@/assets/hairextensions-before.png";
+import hairextensionsAfter from "@/assets/hairextensions-after.png";
 
 const treatments = [
   {
@@ -36,7 +38,10 @@ const treatments = [
     title: "Hairextensions",
     description: "Ekspert i hairextensions",
     details: "Med over 15 års erfaring inden for hairextensions tilbyder jeg forskellige metoder og løsninger. Jeg hjælper dig med at få længere og fyldigere hår til rimelige priser. Alle kan have råd til at have og vedligeholde hairextensions hos mig.",
-    image: "/placeholder.svg"
+    beforeAfter: {
+      before: hairextensionsBefore,
+      after: hairextensionsAfter
+    }
   },
   {
     title: "Hårfarve",
