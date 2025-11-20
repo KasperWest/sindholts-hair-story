@@ -8,12 +8,15 @@ const Hero = () => {
           <div className="mb-6">
             <img 
               src="/lovable-uploads/e7547722-a7ff-4384-8cb7-69482a6a0aec.png" 
-              alt="Hair by Sindholt Logo" 
+              alt="Hair by Sindholt - Professionel frisør i Kolding" 
               className="h-24 md:h-32 w-auto mx-auto lg:mx-0"
             />
           </div>
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
+            Frisør i Kolding - Hair by Sindholt
+          </h1>
           <p className="text-lg md:text-xl text-foreground/80 mb-4 font-medium">
-            Frisør i Kolding med 15 års erfaring og den 4 årige uddannelse.
+            Din professionelle frisør i Kolding med 15 års erfaring og den 4-årige uddannelse.
           </p>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl">
             🤍 Uddannet frisør med 4 årig uddannelse 💇🏼‍♂️💇🏼‍♀️<br />
@@ -46,7 +49,7 @@ const Hero = () => {
           <div className="relative rounded-2xl overflow-hidden shadow-2xl">
             <img 
               src="/lovable-uploads/050bc8c2-a637-48c7-9184-6a63d466c35f.png" 
-              alt="Katrine Matilde Lindstrøm Sindholt - Hair by Sindholt" 
+              alt="Katrine Sindholt - erfaren frisør i Kolding hos Hair by Sindholt" 
               className="w-full h-auto object-cover"
             />
           </div>

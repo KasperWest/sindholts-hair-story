@@ -16,8 +16,8 @@ import andreBehandlingerImg from "@/assets/andre-behandlinger.png";
 const treatments = [
   {
     title: "Dameklip",
-    description: "Moderne dameklipning og styling",
-    details: "Uanset om du ønsker en frisk frisure eller bare en klipning, så skræddersyr jeg behandlingen efter dit hår og dine ønsker. Jeg rådgiver gerne om den bedste frisure til dig.",
+    description: "Moderne dameklipning og styling i Kolding",
+    details: "Uanset om du ønsker en frisk frisure eller bare en klipning, så skræddersyr jeg behandlingen efter dit hår og dine ønsker. Som erfaren frisør i Kolding rådgiver jeg gerne om den bedste frisure til dig.",
     beforeAfter: {
       before: dameklipBefore,
       after: dameklipAfter
@@ -25,8 +25,8 @@ const treatments = [
   },
   {
     title: "Hairextensions",
-    description: "Ekspert i hairextensions",
-    details: "Med over 15 års erfaring inden for hairextensions tilbyder jeg forskellige metoder og løsninger. Jeg hjælper dig med at få længere og fyldigere hår til rimelige priser. Alle kan have råd til at have og vedligeholde hairextensions hos mig.",
+    description: "Koldings førende ekspert i hairextensions",
+    details: "Med over 15 års erfaring inden for hairextensions tilbyder jeg forskellige metoder og løsninger. Som specialist i hairextensions i Kolding hjælper jeg dig med at få længere og fyldigere hår til rimelige priser. Alle kan have råd til at have og vedligeholde hairextensions hos mig.",
     beforeAfter: {
       before: hairextensionsBefore,
       after: hairextensionsAfter
@@ -34,8 +34,8 @@ const treatments = [
   },
   {
     title: "Hårfarve",
-    description: "Professionel hårfarvning",
-    details: "Fra naturlige nuancer til modige farvevalg - jeg hjælper dig med at finde den perfekte hårfarve. Jeg bruger kvalitetsprodukter og teknikker, der skåner dit hår.",
+    description: "Professionel hårfarvning i Kolding",
+    details: "Fra naturlige nuancer til modige farvevalg - jeg hjælper dig med at finde den perfekte hårfarve. Som frisør i Kolding bruger jeg kvalitetsprodukter og teknikker, der skåner dit hår.",
     beforeAfter: {
       before: haarfarveBefore,
       after: haarfarveAfter
@@ -43,20 +43,20 @@ const treatments = [
   },
   {
     title: "Herreklip",
-    description: "Professionel herreklipning",
-    details: "Hos Hair by Sindholt får du en professionel herreklipning, der passer til din stil og ansigtsform. Jeg bruger moderne teknikker og tager mig god tid til at sikre det perfekte resultat.",
+    description: "Professionel herreklipning i Kolding",
+    details: "Hos Hair by Sindholt får du en professionel herreklipning, der passer til din stil og ansigtsform. Som erfaren frisør i Kolding bruger jeg moderne teknikker og tager mig god tid til at sikre det perfekte resultat.",
     image: herreklipImg
   },
   {
     title: "Børneklip",
-    description: "Børnevenlig klipning",
-    details: "Jeg har erfaring med at klippe børn i alle aldre. Jeg sørger for en tryg og behagelig oplevelse, så dit barn får en flot frisure i hyggelige omgivelser.",
+    description: "Børnevenlig klipning i Kolding",
+    details: "Jeg har erfaring med at klippe børn i alle aldre i min hyggelige salon i Kolding. Jeg sørger for en tryg og behagelig oplevelse, så dit barn får en flot frisure i hyggelige omgivelser.",
     image: borneklipImg
   },
   {
     title: "Andre behandlinger",
-    description: "Øvrige frisørbehandlinger",
-    details: "Jeg tilbyder også andre behandlinger såsom styling til fester, bryllup og andre særlige lejligheder. Kontakt mig gerne for at høre mere om dine specifikke ønsker.",
+    description: "Øvrige frisørbehandlinger i Kolding",
+    details: "Som frisør i Kolding tilbyder jeg også andre behandlinger såsom styling til fester, bryllup og andre særlige lejligheder. Kontakt mig gerne for at høre mere om dine specifikke ønsker.",
     image: andreBehandlingerImg
   }
 ];
@@ -85,7 +85,7 @@ const TreatmentCard = ({
               <div className="relative overflow-hidden">
                 <img 
                   src={beforeAfter.before} 
-                  alt={`${title} - Før`}
+                  alt={`${title} hos frisør i Kolding - før behandling`}
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute bottom-2 left-2 bg-background/80 px-2 py-1 rounded text-xs font-medium">
@@ -95,7 +95,7 @@ const TreatmentCard = ({
               <div className="relative overflow-hidden">
                 <img 
                   src={beforeAfter.after} 
-                  alt={`${title} - Efter`}
+                  alt={`${title} hos frisør i Kolding - efter behandling`}
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute bottom-2 right-2 bg-background/80 px-2 py-1 rounded text-xs font-medium">
@@ -106,7 +106,7 @@ const TreatmentCard = ({
           ) : image ? (
             <img 
               src={image} 
-              alt={title}
+              alt={`${title} hos frisør i Kolding - Hair by Sindholt`}
               className="w-full h-full object-cover object-top"
             />
           ) : null}

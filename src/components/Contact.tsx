@@ -38,7 +38,7 @@ const Contact = () => {
                     <div>
                       <p className="font-semibold text-foreground">Beliggenhed:</p>
                       <p className="text-muted-foreground">
-                        Tæt på Slotssøbadet, i gå afstand fra Koldings latinerkvarter
+                        <span className="font-semibold text-foreground">Frisør i Kolding centralt beliggende</span> - tæt på Slotssøbadet, i gå afstand fra Koldings latinerkvarter
                       </p>
                       <p className="text-muted-foreground text-sm mt-2">
                         Bybus nr. 2 (Ankerhus – Agtrupvej – Busterminalen – Munkevænget) 
@@ -61,7 +61,7 @@ const Contact = () => {
                 Lad os skabe dit drømmehår sammen!
               </h3>
               <p className="text-lg text-muted-foreground mb-6">
-                Book en tid i dag og oplev forskellen ved professionel hårpleje 
+                Book en tid hos din frisør i Kolding i dag og oplev forskellen ved professionel hårpleje 
                 og extensions af højeste kvalitet.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
