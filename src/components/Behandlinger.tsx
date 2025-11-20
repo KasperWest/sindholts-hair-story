@@ -11,6 +11,7 @@ import haarfarveAfter from "@/assets/haarfarve-after.png";
 import borneklipImg from "@/assets/borneklip.png";
 import hairextensionsBefore from "@/assets/hairextensions-before.png";
 import hairextensionsAfter from "@/assets/hairextensions-after.png";
+import andreBehandlingerImg from "@/assets/andre-behandlinger.jpg";
 
 const treatments = [
   {
@@ -56,7 +57,7 @@ const treatments = [
     title: "Andre behandlinger",
     description: "Øvrige frisørbehandlinger",
     details: "Jeg tilbyder også andre behandlinger såsom styling til fester, bryllup og andre særlige lejligheder. Kontakt mig gerne for at høre mere om dine specifikke ønsker.",
-    image: "/placeholder.svg"
+    image: andreBehandlingerImg
   }
 ];
 
