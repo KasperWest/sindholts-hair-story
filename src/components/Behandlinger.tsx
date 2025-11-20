@@ -6,6 +6,8 @@ import { useState } from "react";
 import herreklipImg from "@/assets/herreklip.png";
 import dameklipBefore from "@/assets/dameklip-before.png";
 import dameklipAfter from "@/assets/dameklip-after.png";
+import haarfarveBefore from "@/assets/haarfarve-before.png";
+import haarfarveAfter from "@/assets/haarfarve-after.png";
 
 const treatments = [
   {
@@ -39,7 +41,10 @@ const treatments = [
     title: "Hårfarve",
     description: "Professionel hårfarvning",
     details: "Fra naturlige nuancer til modige farvevalg - jeg hjælper dig med at finde den perfekte hårfarve. Jeg bruger kvalitetsprodukter og teknikker, der skåner dit hår.",
-    image: "/placeholder.svg"
+    beforeAfter: {
+      before: haarfarveBefore,
+      after: haarfarveAfter
+    }
   },
   {
     title: "Andre behandlinger",
