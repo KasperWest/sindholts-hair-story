@@ -12,6 +12,9 @@ const Hero = () => {
               className="h-24 md:h-32 w-auto mx-auto lg:mx-0"
             />
           </div>
+          <p className="text-lg md:text-xl text-foreground/80 mb-4 font-medium">
+            Frisør i Kolding med 15 års erfaring og 4 års uddannelse
+          </p>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl">
             🤍 Uddannet frisør med 4 årig uddannelse 💇🏼‍♂️💇🏼‍♀️<br />
             🤍 Hair extensions<br />
