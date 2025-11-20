@@ -15,12 +15,6 @@ import andreBehandlingerImg from "@/assets/andre-behandlinger.png";
 
 const treatments = [
   {
-    title: "Herreklip",
-    description: "Professionel herreklipning",
-    details: "Hos Hair by Sindholt får du en professionel herreklipning, der passer til din stil og ansigtsform. Jeg bruger moderne teknikker og tager mig god tid til at sikre det perfekte resultat.",
-    image: herreklipImg
-  },
-  {
     title: "Dameklip",
     description: "Moderne dameklipning og styling",
     details: "Uanset om du ønsker en frisk frisure eller bare en klipning, så skræddersyr jeg behandlingen efter dit hår og dine ønsker. Jeg rådgiver gerne om den bedste frisure til dig.",
@@ -28,12 +22,6 @@ const treatments = [
       before: dameklipBefore,
       after: dameklipAfter
     }
-  },
-  {
-    title: "Børneklip",
-    description: "Børnevenlig klipning",
-    details: "Jeg har erfaring med at klippe børn i alle aldre. Jeg sørger for en tryg og behagelig oplevelse, så dit barn får en flot frisure i hyggelige omgivelser.",
-    image: borneklipImg
   },
   {
     title: "Hairextensions",
@@ -52,6 +40,18 @@ const treatments = [
       before: haarfarveBefore,
       after: haarfarveAfter
     }
+  },
+  {
+    title: "Herreklip",
+    description: "Professionel herreklipning",
+    details: "Hos Hair by Sindholt får du en professionel herreklipning, der passer til din stil og ansigtsform. Jeg bruger moderne teknikker og tager mig god tid til at sikre det perfekte resultat.",
+    image: herreklipImg
+  },
+  {
+    title: "Børneklip",
+    description: "Børnevenlig klipning",
+    details: "Jeg har erfaring med at klippe børn i alle aldre. Jeg sørger for en tryg og behagelig oplevelse, så dit barn får en flot frisure i hyggelige omgivelser.",
+    image: borneklipImg
   },
   {
     title: "Andre behandlinger",
