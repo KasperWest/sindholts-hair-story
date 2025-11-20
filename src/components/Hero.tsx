@@ -5,7 +5,6 @@ const Hero = () => {
     <section id="hjem" className="min-h-screen bg-gradient-to-br from-salon-champagne via-salon-warm to-background relative overflow-hidden">
       <div className="container mx-auto px-4 py-20 grid lg:grid-cols-2 gap-12 items-center min-h-screen">
         <div className="text-center lg:text-left">
-          <h1 className="sr-only">Frisør i Kolding - Hair by Sindholt</h1>
           <div className="mb-6">
             <img 
               src="/lovable-uploads/e7547722-a7ff-4384-8cb7-69482a6a0aec.png" 
@@ -13,9 +12,9 @@ const Hero = () => {
               className="h-24 md:h-32 w-auto mx-auto lg:mx-0"
             />
           </div>
-          <p className="text-lg md:text-xl text-foreground/80 mb-4 font-medium">
+          <h1 className="text-lg md:text-xl text-foreground/80 mb-4 font-medium">
             Din professionelle frisør i Kolding med 15 års erfaring og den 4-årige uddannelse.
-          </p>
+          </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl">
             🤍 Uddannet frisør med 4 årig uddannelse 💇🏼‍♂️💇🏼‍♀️<br />
             🤍 Hair extensions<br />
