@@ -38,6 +38,9 @@ const Hero = () => {
               Ring: 31 31 60 93
             </Button>
           </div>
+          <p className="text-sm md:text-base text-muted-foreground mt-4 text-center lg:text-left">
+            Priser og åbningstider finder du ved at klikke på "Book tid nu"
+          </p>
         </div>
         <div className="relative">
           <div className="relative rounded-2xl overflow-hidden shadow-2xl">
