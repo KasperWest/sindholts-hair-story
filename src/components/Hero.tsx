@@ -17,7 +17,7 @@ const Hero = () => {
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl">
             🤍 15 års erfaring med frisørarbejde 💇🏼‍♀️💇🏼‍♂️<br />
-            🤍 Specialist i hair extensions & hårfarve<br />
+            🤍 Specialist i extensions & hårfarve<br />
             🤍 Certificeret i IdHAIR & Nioplex<br />
             🤍 Jeg udfører selv alle behandlinger
           </p>
