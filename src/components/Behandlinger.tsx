@@ -8,6 +8,7 @@ import dameklipBefore from "@/assets/dameklip-before.png";
 import dameklipAfter from "@/assets/dameklip-after.png";
 import haarfarveBefore from "@/assets/haarfarve-before.png";
 import haarfarveAfter from "@/assets/haarfarve-after.png";
+import borneklipImg from "@/assets/borneklip.png";
 
 const treatments = [
   {
@@ -29,7 +30,7 @@ const treatments = [
     title: "Børneklip",
     description: "Børnevenlig klipning",
     details: "Jeg har erfaring med at klippe børn i alle aldre. Jeg sørger for en tryg og behagelig oplevelse, så dit barn får en flot frisure i hyggelige omgivelser.",
-    image: "/placeholder.svg"
+    image: borneklipImg
   },
   {
     title: "Hairextensions",
