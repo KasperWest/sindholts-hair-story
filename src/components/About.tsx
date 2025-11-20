@@ -13,15 +13,15 @@ const About = () => {
               </p>
               
               <p>
-                Hos <span className="font-semibold text-foreground">Hair by Sindholt</span> tilbydes alt inden for hairextensions – og meget mere. Ud over min store passion og mange års erfaring med extensions tilbyder jeg også professionel <span className="font-semibold text-foreground">hårfarve, herreklip og børneklip</span>.
+                Hos <span className="font-semibold text-foreground">Hair by Sindholt</span> tilbydes alt inden for hairextensions – og meget mere. Som <span className="font-semibold text-foreground">frisør i Kolding</span> med stor passion og mange års erfaring med extensions tilbyder jeg også professionel <span className="font-semibold text-foreground">hårfarve, herreklip og børneklip</span>.
               </p>
               
               <p>
-                Når du vælger Hair by Sindholt, får du altid <span className="font-semibold text-foreground">den samme frisør – mig</span> – uanset hvilken behandling du kommer for. Alle ydelser foregår i min <span className="font-semibold text-foreground">hyggelige frisørsalon i Kolding</span>, hvor der er <span className="font-semibold text-foreground">parkeringsmuligheder lige ved døren</span> og god plads til ro, nærvær og hyggelig snak under behandlingerne.
+                Når du vælger Hair by Sindholt, får du altid <span className="font-semibold text-foreground">den samme frisør – mig</span> – uanset hvilken behandling du kommer for. Alle ydelser foregår i min <span className="font-semibold text-foreground">hyggelige frisørsalon centralt i Kolding</span>, hvor der er <span className="font-semibold text-foreground">parkeringsmuligheder lige ved døren</span> og god plads til ro, nærvær og hyggelig snak under behandlingerne.
               </p>
               
               <p>
-                Jeg har arbejdet med extensions siden 2008, deltaget i en række kurser og arbejdet professionelt som extensionist i tre år, før jeg åbnede <span className="font-semibold text-foreground">min</span> salon i 2020. Samtidig bygger jeg på den 4-årige frisøruddannelse og har været aktiv i faget siden 2010.
+                Jeg har arbejdet med extensions siden 2008, deltaget i en række kurser og arbejdet professionelt som extensionist i tre år, før jeg åbnede <span className="font-semibold text-foreground">min frisørsalon i Kolding</span> i 2020. Samtidig bygger jeg på den 4-årige frisøruddannelse og har været aktiv i faget siden 2010.
               </p>
               
               <p>
@@ -31,7 +31,7 @@ const About = () => {
             
             <div className="relative">
               <div className="rounded-2xl overflow-hidden shadow-xl">
-                <img src="/lovable-uploads/b056d4cb-e5aa-4712-b00c-5781988a82de.png" alt="Professionelt hårarbejde" className="w-full h-auto object-cover" />
+                <img src="/lovable-uploads/b056d4cb-e5aa-4712-b00c-5781988a82de.png" alt="Professionelt hårarbejde fra frisør i Kolding - Hair by Sindholt" className="w-full h-auto object-cover" />
               </div>
             </div>
           </div>
