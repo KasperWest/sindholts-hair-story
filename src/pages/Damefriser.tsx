@@ -26,7 +26,7 @@ const Damefriser = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
-                Damefrisør i Kolding
+                Damefrisør Kolding
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground mb-4">
                 Specialist i hairextensions og professionel dameklipning
@@ -64,7 +64,7 @@ const Damefriser = () => {
                   Hairextensions i Kolding
                 </h2>
                 <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                  Længere, fyldigere hår til rimelige priser - alle kan have råd til at have og vedligeholde hairextensions hos mig
+                  Længere, fyldigere hår med 15+ års erfaring - alle kan have råd til at have og vedligeholde hairextensions hos mig
                 </p>
               </div>
 
@@ -94,7 +94,7 @@ const Damefriser = () => {
                           <CheckCircle className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
                           <div>
                             <p className="text-muted-foreground">
-                              <span className="font-semibold text-foreground">Rimelige priser</span> - Alle kan have råd til hairextensions hos Hair by Sindholt
+                              <span className="font-semibold text-foreground">For alle</span> - Alle kan have råd til hairextensions hos Hair by Sindholt
                             </p>
                           </div>
                         </div>
@@ -186,7 +186,7 @@ const Damefriser = () => {
                   <Sparkles className="w-12 h-12 text-primary mx-auto mb-4" />
                   <h3 className="text-xl font-bold text-foreground mb-3">Hairextensions</h3>
                   <p className="text-muted-foreground">
-                    Specialist i extensions med 15+ års erfaring. Forskellige metoder til rimelige priser
+                    Specialist i extensions med 15+ års erfaring. Forskellige metoder og løsninger
                   </p>
                 </CardContent>
               </Card>
