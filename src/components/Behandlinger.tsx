@@ -117,7 +117,11 @@ const TreatmentCard = ({
         </CardHeader>
         <CardContent className="pt-0 pb-6 space-y-4">
           <div className="flex gap-3">
-            <Button variant="default" className="flex-1">
+            <Button 
+              variant="default" 
+              className="flex-1"
+              onClick={() => window.open('https://hairbysindholt.book.dk/', '_blank')}
+            >
               Book
             </Button>
             <CollapsibleTrigger asChild>
