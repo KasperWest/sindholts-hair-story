@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 const Footer = () => {
   return (
     <footer className="bg-primary text-primary-foreground py-12">
@@ -10,21 +8,6 @@ const Footer = () => {
             alt="Hair by Sindholt Logo" 
             className="h-20 w-auto mx-auto filter invert"
           />
-          
-          <nav className="flex flex-wrap justify-center gap-6">
-            <Link 
-              to="/damefriser-kolding" 
-              className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
-            >
-              Damefrisør Kolding
-            </Link>
-            <Link 
-              to="/herrefriser-kolding" 
-              className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
-            >
-              Herrefrisør Kolding
-            </Link>
-          </nav>
 
           <p className="text-primary-foreground/80">CVR: 41725214</p>
         </div>
